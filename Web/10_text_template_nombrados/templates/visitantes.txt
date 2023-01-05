@@ -1,0 +1,10 @@
+{{define "visitantes"}}
+Formulario de migración para Visitantes
+=======================================
+
+Nombre: {{.Nombre}}
+Edad: {{.Edad}}
+País: {{.Pais}}
+
+Bla bla bla
+{{end}}

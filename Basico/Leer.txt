@@ -1,0 +1,23 @@
+* Go, SI permite, la programación orientada a objetos (POO)
+* VER "Programación orientada a objetos": https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n)
+
+Resumen:
+  Para algunos autores la POO no requiere que se implementen clases y herencia.
+  Según Alan Kay, creador de Smalltalk, lo esencial es el paso de mensajes.
+
+  Go NO implementa la POO con herencia y clases
+
+  Go SI implementa la POO usando tipos (estructuras, interfaces, funciones) y métodos (funciones asociadas a estructuras)
+
+  Las estructuras permiten la construcción de Jerarquías (no usa herencia, sino que sigue el patrón de composición)
+
+  Las interfaces son declaradas y cualquier estructura que cumpla el contrato de la interface se puede considerar de ese tipo
+  (sin necesidad de declarar ésto explicitamente).
+
+  Los métodos se incluyen en las estructuras definiéndolas separadamente como funciones asociadas a éstas. 
+
+
+* Go maneja la concurrencia a traves de las go-rutinas
+  https://www.youtube.com/watch?v=mRn0exsKRCA&list=PLl_hIu4u7P64MEJpR3eVwQ1l_FtJq4a5g&index=47
+
+* Channels es la forma que tienen las go-rutinas de comunicarse
